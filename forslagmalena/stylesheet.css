@@ -1,0 +1,144 @@
+.wholepage{
+    width:1fr;
+    margin: 10px 10px 40px 30px;
+    background-color: rgba(243, 238, 238, 0.861);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    height: 60px;
+    margin-bottom: 50px;
+}
+
+.leftheader{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.ars{
+    color:rgb(66, 66, 235);
+    font-size: xx-large;
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0 5px 10px 20px;
+    padding: 0 8px 0 8px;
+    background-color: rgb(43, 226, 214);
+    border-radius: 100px;
+    }
+
+.technica{ 
+    color:white;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.rightheader{
+    display: flex;
+    flex-direction: row;
+}
+
+.subscribe{
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+    background-color: rgb(43, 226, 214); 
+}
+.subscribe:hover{
+    background-color: rgb(66, 66, 235);
+}
+#subscribetext{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;  
+
+}
+
+.signin{
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    margin:2px 15px 0 15px; 
+}
+.signin:hover{
+    .underline{
+        display: block;
+    }
+}
+.textSignIn{
+    height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.underline{
+    background-color: rgb(66,66,235);
+    height:10px;
+    padding-bottom: 0px;
+    display: none;
+}
+
+#hamburger{ 
+    width:35px;
+    margin: 12px 0 0 15px;
+    filter: invert(100%) 
+    sepia(0%) 
+    saturate(2993%) 
+    hue-rotate(195deg) 
+    brightness(111%) 
+    contrast(101%);
+}
+#hamburger:hover{
+    cursor: pointer;
+    filter: invert(99%) 
+    sepia(42%) 
+    saturate(3644%) 
+    hue-rotate(98deg) 
+    brightness(103%) 
+    contrast(103%);
+}
+
+
+.article{
+    max-width: 1000px;
+}
+.h1{
+    font-size: xxx-large;
+}
+.h2{
+    font-size: 170%;
+}
+.p{
+    font-size: 120%;
+    line-height: 30px;
+}
+.details{
+    color: rgb(66, 66, 235);
+}
+#thefirsth2{
+    margin: 0;
+}
+#abelanger{
+    display: inline-block;
+    padding-right: 6px;
+    color: rgb(66, 66, 235);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 20px;
+    padding-top: 0;
+}
+#abelanger:hover{
+    color: rgb(43, 226, 214);
+    cursor: pointer;
+}
+#date{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    padding-top: 0;
+    
+}
+.bildet{
+    width: 100%
+}
