@@ -89,6 +89,7 @@
     hue-rotate(195deg) 
     brightness(111%) 
     contrast(101%);
+    /*filter css was retrieved from filter generator: https://codepen.io/sosuke/pen/Pjoqqp */
 }
 #hamburger:hover{
     cursor: pointer;
@@ -98,6 +99,7 @@
     hue-rotate(98deg) 
     brightness(103%) 
     contrast(103%);
+    /*filter was also retrieved from https://codepen.io/sosuke/pen/Pjoqqp */
 }
 
 
