@@ -144,3 +144,26 @@
 .bildet{
     width: 100%
 }
+.center{
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+}
+hr{
+    height: 5px;
+    background-color: RGB(58, 82, 102);
+    border: none;
+}
+.block {
+    flex-basis: 30%;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: RGB(58, 82, 102);
+}
+  .container  {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
