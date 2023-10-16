@@ -187,3 +187,19 @@ hr{
     position: fixed;
     bottom: 0;
  }
+ body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1; /* This will push the footer to the bottom */
+}
+
+.footer {
+    background-color: black; /* Set the background color of the footer */
+    color: #fff; /* Set text color */
+    text-align: center; /* Center-align the content */
+    padding: 10px;
+}
