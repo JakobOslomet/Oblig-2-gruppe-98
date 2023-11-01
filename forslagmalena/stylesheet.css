@@ -212,13 +212,13 @@
 .article{
     max-width: 1000px;
 }
-.h1{
+.articletitle{
     font-size: xxx-large;
 }
-.h2{
+.artclesubtitle{
     font-size: 170%;
 }
-.p{
+.articleparagraph{
     font-size: 120%;
     line-height: 30px;
 }
