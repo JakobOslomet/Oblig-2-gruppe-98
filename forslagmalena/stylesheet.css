@@ -271,6 +271,9 @@
     padding: 20px;
     text-align: center;
 }
+.left-center{
+    text-align: left;
+}
 hr{
     height: 5px;
     background-color: RGB(58, 82, 102);
@@ -308,4 +311,7 @@ hr{
 }
 ul {
     list-style-position: inside;
+}
+a{
+    color: green;
 }
