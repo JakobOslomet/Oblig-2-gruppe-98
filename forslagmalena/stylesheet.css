@@ -274,11 +274,7 @@
 .left-center{
     text-align: left;
 }
-hr{
-    height: 5px;
-    background-color: RGB(58, 82, 102);
-    border: none;
-}
+
 .block {
     flex-basis: 30%;
     width: auto;
